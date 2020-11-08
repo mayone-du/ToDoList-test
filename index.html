@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- リセットCSSの読み込み -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- スタイルシートの読み込み -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesomeの読み込み -->
+  <script src="https://kit.fontawesome.com/684548cccd.js" crossorigin="anonymous"></script>
+  <title>ToDoリスト</title>
+</head>
+<body>
+  <div class="container">
+    <!-- ヘッダー -->
+    <header class="header">
+      <div class="clear" id="js-clear">
+        <i class="fa fa-refresh"></i>
+      </div>
+      <div id="js-date"></div>
+    </header>
+    <!-- メイン -->
+    <main class="content">
+      <ul id="js-ul">
+        <!-- ここにjsのitemが入ってくる -->
+      </ul>
+      <div class="add-to-do">
+        <i class="fa fa-plus-circle" id="js-addToDo"></i>
+        <input type="text" id="js-input" placeholder="リストを追加">
+      </div>
+    </main>
+  </div>
+  
+  
+
+
+  <!-- JavaScriptの読み込み -->
+  <script src="js/main.js"></script>
+</body>
+</html>
